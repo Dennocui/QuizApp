@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="4dp"
+                  android:text="@string/header"
+                  android:textAlignment="center"
+                  android:textSize="22sp" />
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="12dp"
+                  android:layout_marginStart="16dp"
+                  android:layout_marginTop="20dp"
+                  android:text="@string/question1"
+                  android:textSize="16sp" />
+
+              <EditText
+                  android:id="@+id/question_1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="16dp"
+                  android:hint="@string/answer"
+                  android:inputType="text" />
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="12dp"
+                  android:layout_marginStart="16dp"
+                  android:layout_marginTop="20dp"
+                  android:text="@string/question2"
+                  android:textSize="16sp" />
+
+              <EditText
+                  android:id="@+id/question_2"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="16dp"
+                  android:hint="@string/answer"
+                  android:inputType="text" />
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="6dp"
+                  android:layout_marginStart="16dp"
+                  android:layout_marginTop="20dp"
+                  android:text="@string/question3"
+                  android:textSize="16sp" />
+
+              <RadioGroup
+                  android:id="@+id/radio_question_3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+                  <RadioButton
+                      android:id="@+id/question3_peru"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="0dp"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="4dp"
+                      android:text="@string/peru" />
+
+                  <RadioButton
+                      android:id="@+id/question3_egypt"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="0dp"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="2dp"
+                      android:text="@string/egypt" />
+
+                  <RadioButton
+                      android:id="@+id/question3_india"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="0dp"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="2dp"
+                      android:text="@string/india" />
+
+                  <RadioButton
+                      android:id="@+id/question3_jordan"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="6dp"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="2dp"
+                      android:text="@string/jordan" />
+              </RadioGroup>
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="6dp"
+                  android:layout_marginStart="16dp"
+                  android:layout_marginTop="20dp"
+                  android:text="@string/question4"
+                  android:textSize="16sp" />
+
+              <CheckBox
+                  android:id="@+id/question4_egypt"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="12dp"
+                  android:layout_marginStart="16dp"
+                  android:layout_marginTop="0dp"
+                  android:text="@string/checkbox_egypt" />
+
+              <CheckBox
+                  android:id="@+id/question4_india"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="12dp"
+                  android:layout_marginStart="16dp"
+                  android:layout_marginTop="0dp"
+                  android:text="@string/checkbox_india" />
+
+              <CheckBox
+                  android:id="@+id/question4_brazil"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="12dp"
+                  android:layout_marginStart="16dp"
+                  android:layout_marginTop="0dp"
+                  android:text="@string/checkbox_brazil" />
+
+              <CheckBox
+                  android:id="@+id/question4_mexico"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="12dp"
+                  android:layout_marginStart="16dp"
+                  android:layout_marginTop="0dp"
+                  android:text="@string/checkbox_mexico" />
+
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="6dp"
+                  android:layout_marginStart="16dp"
+                  android:layout_marginTop="20dp"
+                  android:text="@string/question5"
+                  android:textSize="16sp" />
+
+              <RadioGroup
+                  android:id="@+id/radio_question_5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+                  <RadioButton
+                      android:id="@+id/question5_chichen_itza"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="0dp"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="4dp"
+                      android:text="@string/the_chichen_itza" />
+
+                  <RadioButton
+                      android:id="@+id/question5_great_wall"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="0dp"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="2dp"
+                      android:text="@string/the_great_wall_of_china" />
+
+                  <RadioButton
+                      android:id="@+id/question5_colosseum"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="22dp"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="2dp"
+                      android:text="@string/Q5" />
+              </RadioGroup>
+
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="6dp"
+                  android:layout_marginStart="16dp"
+                  android:layout_marginTop="20dp"
+                  android:text="@string/question6"
+                  android:textSize="16sp" />
+
+              <RadioGroup
+                  android:id="@+id/radio_question_6"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+                  <RadioButton
+                      android:id="@+id/question6_peru"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="0dp"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="4dp"
+                      android:text="@string/peru" />
+
+                  <RadioButton
+                      android:id="@+id/question6_jordan"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="0dp"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="2dp"
+                      android:text="@string/jordan" />
+
+                  <RadioButton
+                      android:id="@+id/question6_egypt"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="22dp"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginTop="2dp"
+                      android:text="@string/egypt" />
+              </RadioGroup>
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="6dp"
+                  android:layout_marginStart="16dp"
+                  android:layout_marginTop="20dp"
+                  android:text="@string/question7"
+                  android:textSize="16sp" />
+
+              <ImageView
+                  android:id="@+id/imageView"
+                  android:layout_width="261dp"
+                  android:layout_height="197dp"
+                  android:layout_marginStart="16dp"
+                  android:contentDescription="@string/great_wall_of_china"
+                  app:srcCompat="@mipmap/great_wall" />
+
+              <EditText
+                  android:id="@+id/question_7"
+                  android:layout_width="match_parent"
+                  android:layout_height="45dp"
+                  android:layout_marginStart="16dp"
+                  android:hint="@string/answer"
+                  android:inputType="text" />
+
+              <Button
+                  android:id="@+id/evaluate"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="22dp"
+                  android:layout_marginLeft="16dp"
+                  android:layout_marginRight="16dp"
+                  android:onClick="startEvaluation"
+                  android:text="@string/evaluate_button" />
+
+              <Button
+                  android:id="@+id/reset"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="16dp"
+                  android:layout_marginRight="16dp"
+                  android:onClick="reset"
+                  android:text="@string/reset_quiz"
+                  android:textColor="#ff0033"
+                  android:textStyle="bold" />
+
+
+          </LinearLayout>
+
+
+</ScrollView>
